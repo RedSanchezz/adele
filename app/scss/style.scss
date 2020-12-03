@@ -2,7 +2,7 @@
 @import "global";
 .header {
     padding: 27px 0 48px 0;
-    height: 807px;
+    height: 882px;
     position: relative;
     background-repeat: no-repeat;
     background-position: top 299px right 125px;
@@ -217,3 +217,5 @@
     font-size: 16px;
     font-weight: 300;
 }
+
+@import "slider"
