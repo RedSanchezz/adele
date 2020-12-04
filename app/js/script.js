@@ -12,3 +12,8 @@ $(".slider__info").slick({
     fade: true,
     asNavFor: ".slider__photos",
 });
+$(".testimonials-slider").slick({
+    arrows: false,
+    dots: true,
+    appendDots: ".testimonials-slider__dots",
+});
