@@ -36,11 +36,10 @@ body {
 .title {
     text-align: center;
     font-weight: 300;
-    font-style: normal;
     letter-spacing: 0.75px;
-    line-height: normal;
     font-size: 30px;
     text-transform: uppercase;
+    letter-spacing: 0;
     .left {
         color: #333740;
         font-family: "Raleway - Extra Bold";
@@ -48,14 +47,20 @@ body {
         font-style: normal;
         letter-spacing: normal;
         line-height: 22px;
+        position: relative;
+        padding-right: 13px;
     }
-    .center {
-        font-weight: 700;
-        font-style: normal;
-        letter-spacing: 0.75px;
-        color: #18a3dd;
-        font-size: 40px;
-        line-height: 40px;
+    .left::after {
+        content: "";
+        position: absolute;
+        display: block;
+        border-left: 1px solid #18a3dd;
+        height: 40px;
+        top: 0;
+        right: 0;
+    }
+    .right {
+        padding-left: 12px;
     }
 }
 
@@ -71,4 +76,16 @@ body {
 
 li {
     list-style: none;
+}
+
+.active {
+    display: block!important;
+}
+
+.active__ingridients {
+    .ingredients__list-item-inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }

@@ -310,3 +310,134 @@
         background-color: #342e3a;
     }
 }
+
+.facts {
+    padding-top: 120px;
+}
+
+.facts__table {
+    width: 950px;
+    margin: 74px auto 0 auto;
+    display: flex;
+}
+
+.ingredients__header {
+    display: flex;
+    justify-content: space-between;
+    height: 65px;
+    border-bottom: 5px solid #333740;
+}
+
+.ingredients__header-title {
+    color: #333740;
+    font-family: "Lato - Black";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.ingredients__list {
+    margin-top: 25px;
+}
+
+.ingredients__header-text-one {
+    color: #333740;
+    font-family: "Lato - Black";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.ingredients_header-text-two {
+    color: #333740;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.ingredients__left-collumn {
+    width: 460px;
+}
+
+.ingredients__list-item {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    border-bottom: 1px solid #ebebeb;
+    cursor: pointer;
+    position: relative;
+}
+
+.igridients__name {
+    color: #333740;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.igridients__amount {
+    color: #333740;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.ingredients__list-item:hover {}
+
+.ingredients__list-item-inner {
+    display: none;
+    position: absolute;
+    top: -14px;
+    left: -14px;
+    padding: 0 15px 0 15px;
+    height: 65px;
+    width: 490px;
+    border: 1px solid red;
+    z-index: 20;
+    background-color: white;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.24);
+    border: 1px solid #d7d7d7;
+}
+
+.ingredients__right-collumn {
+    margin-left: 115px;
+    width: 360px;
+}
+
+.desc-list__item {
+    display: none;
+}
+
+.desc-list__block {
+    padding-left: 30px;
+    border-left: 6px solid #18a3dd;
+}
+
+.desc-list__name {
+    color: #333740;
+    font-family: Raleway;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.desc-list__amount {
+    color: #333740;
+    font-family: "Lato Light";
+    font-weight: 300;
+    margin-top: 6px;
+}
+
+.desc-list__text {
+    margin-top: 30px;
+    color: #404040;
+    font-family: "Lato Light";
+    font-weight: 300;
+}
