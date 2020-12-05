@@ -34,7 +34,6 @@
     font-size: 72px;
     font-weight: 400;
     text-transform: uppercase;
-    margin-left: 50px;
 }
 
 .header__subtitle {
@@ -42,13 +41,14 @@
     font-size: 24px;
     font-weight: 400;
     line-height: 24px;
-    margin-left: 50px;
     font-size: 24px;
     font-weight: 400;
 }
 
 .header__title-block {
     border-left: 5px solid #18a3dd;
+    padding-left: 50px;
+    ;
 }
 
 .header__block-text {
@@ -390,8 +390,6 @@
     line-height: 20px;
 }
 
-.ingredients__list-item:hover {}
-
 .ingredients__list-item-inner {
     display: none;
     position: absolute;
@@ -418,6 +416,7 @@
 
 .desc-list__block {
     padding-left: 30px;
+    margin-top: 50px;
     border-left: 6px solid #18a3dd;
 }
 
@@ -440,6 +439,11 @@
     color: #404040;
     font-family: "Lato Light";
     font-weight: 300;
+}
+
+.facts__table-button-wrapper {
+    margin: 0 auto;
+    width: 950px;
 }
 
 .facts__table-button {
@@ -734,3 +738,5 @@
     right: 179px;
     top: 68px;
 }
+
+@import "media";
