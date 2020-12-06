@@ -1,7 +1,7 @@
 @import "fonts";
 @import "global";
 .header {
-    padding: 27px 0 48px 0;
+    padding: 27px 20px 48px 20px;
     height: 882px;
     position: relative;
     background-repeat: no-repeat;
@@ -11,6 +11,7 @@
 .header__top {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header__menu-icon {
@@ -104,6 +105,7 @@
 }
 
 .description__items {
+    padding-left: 10px;
     display: flex;
     justify-content: space-between;
     max-width: 731px;
@@ -148,6 +150,7 @@
 
 .features {
     padding-top: 67px;
+    padding: 67px 20px 0 20px;
 }
 
 .feature__items {
@@ -262,6 +265,7 @@
     line-height: 24px;
     max-width: 735px;
     width: 100%;
+    text-align: justify;
 }
 
 .slider-item__bottom-line {
@@ -367,7 +371,7 @@
 }
 
 .ingredients__left-collumn {
-    width: 460px;
+    min-width: 460px;
 }
 
 .ingredients__list-item {
