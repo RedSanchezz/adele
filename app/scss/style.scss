@@ -224,13 +224,13 @@
 
 .real-man {
     padding: 120px 0;
+    position: relative;
 }
 
 .real-man__sliders-block {
     max-width: 760px;
     width: 100%;
     margin: 78px auto 0 auto;
-    overflow-y: hidden;
     display: flex;
 }
 
