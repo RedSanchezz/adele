@@ -157,7 +157,8 @@
 }
 
 .feature__item {
-    width: 256px;
+    max-width: 256px;
+    width: 100%;
     height: 90px;
 }
 
@@ -226,6 +227,7 @@
     max-width: 760px;
     width: 100%;
     margin: 78px auto 0 auto;
+    overflow-y: hidden;
     display: flex;
 }
 
@@ -320,6 +322,7 @@
 }
 
 .facts__table {
+    padding: 0 15px 0 15px;
     max-width: 950px;
     margin: 74px auto 0 auto;
     display: flex;
@@ -511,13 +514,13 @@
 
 .sertification__logotypes-item {
     height: 100px;
-    width: 195px;
+    max-width: 195px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-right: 2px solid #dcdcdc;
     img {
-        width: auto;
+        width: 100%;
     }
     &:last-child {
         border-right: none;
@@ -529,6 +532,7 @@
     padding-top: 120px;
     background-color: #ffffff;
     position: relative;
+    overflow: hidden;
 }
 
 .supplement__block {
@@ -645,7 +649,8 @@
         border: none;
         border-bottom: 1px solid #ebebeb;
     }
-    width: 560px;
+    max-width: 560px;
+    width: 100%;
     margin: 75px auto 0 auto;
 }
 

@@ -1,5 +1,6 @@
 let ingridients = document.querySelectorAll(".ingredients__list-item");
 let descList = document.querySelectorAll(".desc-list__item");
+//775 393
 
 for (let i = 0; i < ingridients.length; i++) {
     ingridients[i].addEventListener("mouseover", function(e) {
