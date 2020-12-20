@@ -17,3 +17,20 @@ $(".testimonials-slider").slick({
     dots: true,
     appendDots: ".testimonials-slider__dots",
 });
+
+{
+    let menuIcon = $(".hamburger");
+    let headerMenu = $(".header__menu");
+    menuIcon.on("click", function(e) {
+
+        if (headerMenu.is(".menu__active")) {
+            headerMenu.toggleClass("menu__active");
+            menuIcon.toggleClass("is-active");
+
+        } else {
+            headerMenu.toggleClass("menu__active");
+            menuIcon.toggleClass("is-active");
+        }
+    });
+
+}

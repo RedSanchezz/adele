@@ -20,6 +20,14 @@ body {
     font-style: normal;
     letter-spacing: normal;
     font-family: Lato;
+    overflow-x: hidden;
+}
+
+.big-container {
+    max-width: 1900px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
 .container {
@@ -88,4 +96,8 @@ li {
         justify-content: space-between;
         align-items: center;
     }
+}
+
+.menu__active {
+    right: 150px!important;
 }

@@ -6,467 +6,490 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/libs/libs.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/hamburgers.min.css">
     <title>Document</title>
 </head>
 
 <body>
-    <div class="header" style="background-image: url('img/header-image.png');">
-        <div class="container">
-            <div class="header__top">
-                <img src="img/logo.png" alt="" class="header__logo">
-                <div class="header__menu-icon"></div>
-            </div>
-            <div class="header__block">
-                <div class="header__title-block">
-                    <h1 class="header__title">Do It Now</h1>
-                    <span class="header__subtitle">Or You Never Get It Back</span>
-                </div>
-
-                <div class="header__block-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</div>
-                <div class="header__block-bottom">
-                    <a href="#">
-                        <div class="header__block-button">ORDER NOW</div>
-                    </a>
-                    <a href="#" class="header__video-link">Watch The Video</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <section class="description">
-        <div class="description__center-block">
+    <div class="big-container">
+        <header class="header" style="background-image: url('img/header-image.png');">
             <div class="container">
-                <div class="description__items">
-                    <div class="description__item">
-                        <div class="description__item-number">100</div>
-                        <div class="description__item-text"><span>MG</span><br> Per Capsule
-                        </div>
-                    </div>
-                    <div class="description__item">
-                        <div class="description__item-number">60</div>
-                        <div class="description__item-text"><span>Capsules</span><br> Per Bottle
-                        </div>
-                    </div>
-                    <div class="description__item">
-                        <div class="description__item-number">900</div>
-                        <div class="description__item-text"><span>PLUS</span> <br> Satisfied Customers</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <img src="./img/desc-image.png" alt="" class="description__image">
-        </div>
-    </section>
-    <section class="features">
-        <h2 class="features__title title"><span class="left">Fetures</span><span class="right"> We Offer</span></h2>
-        <div class="features__subtitle subtitle">Don’t forget to check these real success.</div>
-        <div class="container container-small">
-            <div class="feature__items">
-                <div class="feature__items-column items-left">
-                    <div class="feature__item">
-                        <div class="feature__item-title">Increased Energy</div>
-                        <div class="feature__item-text">Lorem ipsum dolor sit amet, consec tetuer adipiscing elit, sed diam nonu </div>
-                    </div>
-                    <div class="feature__item">
-                        <div class="feature__item-title"> Weight Loss</div>
-                        <div class="feature__item-text">Lorem ipsum dolor sit amet, consec tetuer adipiscing elit, sed diam nonu</div>
-                    </div>
-                </div>
-                <img src="img/feature__image.png" alt="" class="feature__item-image">
-                <div class="feature__items-column items-right">
-                    <div class="feature__item">
-                        <div class="feature__item-title">Bone Builder</div>
-                        <div class="feature__item-text">Lorem ipsum dolor sit amet, consec tetuer adipiscing elit, sed diam nonu</div>
-                    </div>
-                    <div class="feature__item">
-                        <div class="feature__item-title">Stress Release</div>
-                        <div class="feature__item-text">Lorem ipsum dolor sit amet, consec tetuer adipiscing elit, sed diam nonu</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="real-man">
-        <h2 class="real-man__title title"><span class="left">Real Man</span><span class="right">Real Results</span></h2>
-        <div class="real-man__subtitle subtitle">Don’t forget to check these real success.</div>
-        <div class="real-man__sliders-block">
-            <div class="slider__photos">
-                <div class="slider__photos-item">
-                    <div class="slider__photos-item-inner">
-                        <img src="img/slider-photo-before-1.png" alt="" class="sider-photo photo-before">
-                        <img src="img/slider-photo-after-1.png" alt="" class="sider-photo photo-after">
-                    </div>
-                </div>
-                <div class="slider__photos-item">
-                    <div class="slider__photos-item-inner">
-                        <img src="img/header-image.png" alt="" class="sider-photo photo-before">
-                        <img src="img/feature__image.png" alt="" class="sider-photo photo-after">
-                    </div>
-                </div>
-                <div class="slider__photos-item">
-                    <div class="slider__photos-item-inner">
-                        <img src="img/slider-photo-before-1.png" alt="" class="sider-photo photo-before">
-                        <img src="img/slider-photo-after-1.png" alt="" class="sider-photo photo-after">
-                    </div>
-                </div>
-            </div>
-            <div class="slider__info">
-                <div class="slider__info-item">
-                    <div class="slider__info-block info-block">
-                        <div class="info-block__top-row">
-                            <div class="info-block__column">
-                                <div class="info-block__weight">83 <span>KG</span></div>
-                                <div class="info-block__text">Before</div>
-                            </div>
-                            <div class="info-block__column">
-                                <div class="info-block__weight">63 <span>KG</span></div>
-                                <div class="info-block__text">After</div>
+                <div class="header__top">
+                    <a href="#"><img src="img/logo.png" alt="" class="header__logo"></a>
+                    <div class="header__menu-icon">
+                        <div class="hamburger hamburger--vortex-r" type="button">
+                            <div class="hamburger-box">
+                                <div class="hamburger-inner"></div>
                             </div>
                         </div>
-                        <div class="info-block__bottom-row">
-                            <div class="info-block__name">Mike Andersen</div>
-                            <div class="info-block__age">Age: 28</div>
-                        </div>
                     </div>
+                    <nav class="header__menu">
+                        <a href="#">
+                            <div class="header__menu-item">Купить</div>
+                        </a>
+                        <a href="#">
+                            <div class="header__menu-item">О нас</div>
+                        </a>
+                        <a href="#">
+                            <div class="header__menu-item">Позвонить</div>
+                        </a>
+                        <a href="#">
+                            <div class="header__menu-item">вот так вот</div>
+                        </a>
+                    </nav>
                 </div>
-                <div class="slider__info-item">
-                    <div class="slider__info-block info-block">
-                        <div class="info-block__top-row">
-                            <div class="info-block__column">
-                                <div class="info-block__weight">81 <span>KG</span></div>
-                                <div class="info-block__text">Before</div>
-                            </div>
-                            <div class="info-block__column">
-                                <div class="info-block__weight">67 <span>KG</span></div>
-                                <div class="info-block__text">After</div>
-                            </div>
-                        </div>
-                        <div class="info-block__bottom-row">
-                            <div class="info-block__name">Cool Man</div>
-                            <div class="info-block__age">Age: 41 </div>
-                        </div>
+                <div class="header__block">
+                    <div class="header__title-block">
+                        <h1 class="header__title">Do It Now</h1>
+                        <span class="header__subtitle">Or You Never Get It Back</span>
                     </div>
-                </div>
-                <div class="slider__info-item">
-                    <div class="slider__info-block info-block">
-                        <div class="info-block__top-row">
-                            <div class="info-block__column">
-                                <div class="info-block__weight">63 <span>KG</span></div>
-                                <div class="info-block__text">Before</div>
-                            </div>
-                            <div class="info-block__column">
-                                <div class="info-block__weight">73 <span>KG</span></div>
-                                <div class="info-block__text">After</div>
-                            </div>
-                        </div>
-                        <div class="info-block__bottom-row">
-                            <div class="info-block__name">Mick Gordon</div>
-                            <div class="info-block__age">Age: 42</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="real-man__sliders-dots">
 
-        </div>
-    </section>
+                    <div class="header__block-text">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. То назад они правилами. Агентство, пояс дороге. Ему раз злых запятых живет ты путь, заголовок речью последний. Безорфографичный, рукописи буквенных?</div>
+                    <div class="header__block-bottom">
+                        <a href="#">
+                            <div class="header__block-button">ORDER NOW</div>
+                        </a>
+                        <a href="#" class="header__video-link">Watch The Video</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="description">
+            <div class="description__center-block">
+                <div class="container">
+                    <div class="description__items">
+                        <div class="description__item">
+                            <div class="description__item-number">100</div>
+                            <div class="description__item-text"><span>MG</span><br> Per Capsule
+                            </div>
+                        </div>
+                        <div class="description__item">
+                            <div class="description__item-number">60</div>
+                            <div class="description__item-text"><span>Capsules</span><br> Per Bottle
+                            </div>
+                        </div>
+                        <div class="description__item">
+                            <div class="description__item-number">900</div>
+                            <div class="description__item-text"><span>PLUS</span> <br> Satisfied Customers</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <img src="./img/desc-image.png" alt="" class="description__image">
+            </div>
+        </section>
+        <section class="features">
+            <h2 class="features__title title"><span class="left">Fetures</span><span class="right"> We Offer</span></h2>
+            <div class="features__subtitle subtitle">Don’t forget to check these real success.</div>
+            <div class="container container-small">
+                <div class="feature__items">
+                    <div class="feature__items-column items-left">
+                        <div class="feature__item">
+                            <div class="feature__item-title">Increased Energy</div>
+                            <div class="feature__item-text">Lorem ipsum dolor sit amet, consec tetuer adipiscing elit, sed diam nonu </div>
+                        </div>
+                        <div class="feature__item">
+                            <div class="feature__item-title"> Weight Loss</div>
+                            <div class="feature__item-text">Lorem ipsum dolor sit amet, consec tetuer adipiscing elit, sed diam nonu</div>
+                        </div>
+                    </div>
+                    <img src="img/feature__image.png" alt="" class="feature__item-image">
+                    <div class="feature__items-column items-right">
+                        <div class="feature__item">
+                            <div class="feature__item-title">Bone Builder</div>
+                            <div class="feature__item-text">Lorem ipsum dolor sit amet, consec tetuer adipiscing elit, sed diam nonu</div>
+                        </div>
+                        <div class="feature__item">
+                            <div class="feature__item-title">Stress Release</div>
+                            <div class="feature__item-text">Lorem ipsum dolor sit amet, consec tetuer adipiscing elit, sed diam nonu</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="real-man">
+            <h2 class="real-man__title title"><span class="left">Real Man</span><span class="right">Real Results</span></h2>
+            <div class="real-man__subtitle subtitle">Don’t forget to check these real success.</div>
+            <div class="real-man__sliders-block">
+                <div class="slider__photos">
+                    <div class="slider__photos-item">
+                        <div class="slider__photos-item-inner">
+                            <img src="img/slider-photo-before-1.png" alt="" class="sider-photo photo-before">
+                            <img src="img/slider-photo-after-1.png" alt="" class="sider-photo photo-after">
+                        </div>
+                    </div>
+                    <div class="slider__photos-item">
+                        <div class="slider__photos-item-inner">
+                            <img src="img/slider-photo-before-2.jpg" alt="" class="sider-photo photo-before">
+                            <img src="img/slider-photo-after-2.jpg" alt="" class="sider-photo photo-after">
+                        </div>
+                    </div>
+                    <div class="slider__photos-item">
+                        <div class="slider__photos-item-inner">
+                            <img src="img/slider-photo-before-3.jpg" alt="" class="sider-photo photo-before">
+                            <img src="img/slider-photo-after-3.jpg" alt="" class="sider-photo photo-after">
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__info">
+                    <div class="slider__info-item">
+                        <div class="slider__info-block info-block">
+                            <div class="info-block__top-row">
+                                <div class="info-block__column">
+                                    <div class="info-block__weight">83 <span>KG</span></div>
+                                    <div class="info-block__text">Before</div>
+                                </div>
+                                <div class="info-block__column">
+                                    <div class="info-block__weight">63 <span>KG</span></div>
+                                    <div class="info-block__text">After</div>
+                                </div>
+                            </div>
+                            <div class="info-block__bottom-row">
+                                <div class="info-block__name">Mike Andersen</div>
+                                <div class="info-block__age">Age: 28</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__info-item">
+                        <div class="slider__info-block info-block">
+                            <div class="info-block__top-row">
+                                <div class="info-block__column">
+                                    <div class="info-block__weight">81 <span>KG</span></div>
+                                    <div class="info-block__text">Before</div>
+                                </div>
+                                <div class="info-block__column">
+                                    <div class="info-block__weight">67 <span>KG</span></div>
+                                    <div class="info-block__text">After</div>
+                                </div>
+                            </div>
+                            <div class="info-block__bottom-row">
+                                <div class="info-block__name">Cool Man</div>
+                                <div class="info-block__age">Age: 41 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__info-item">
+                        <div class="slider__info-block info-block">
+                            <div class="info-block__top-row">
+                                <div class="info-block__column">
+                                    <div class="info-block__weight">63 <span>KG</span></div>
+                                    <div class="info-block__text">Before</div>
+                                </div>
+                                <div class="info-block__column">
+                                    <div class="info-block__weight">73 <span>KG</span></div>
+                                    <div class="info-block__text">After</div>
+                                </div>
+                            </div>
+                            <div class="info-block__bottom-row">
+                                <div class="info-block__name">Mick Gordon</div>
+                                <div class="info-block__age">Age: 42</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="real-man__sliders-dots">
 
-    <section class="testimonials">
-        <h2 class="testimonials__title title"><span class="left">Client</span><span class="right">TESTIMONIALS</span></h2>
-        <div class="testimonials__subtitle subtitle">We don’t just sell, we’re beloved too.</div>
-        <div class="testimonials-slider">
-            <div class="testimonials-slider__item slider-item">
-                <div class="slider-item__testimonial">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minimveniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip. sed
-                    diam nonummy nibh euismod.
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <h2 class="testimonials__title title"><span class="left">Client</span><span class="right">TESTIMONIALS</span></h2>
+            <div class="testimonials__subtitle subtitle">We don’t just sell, we’re beloved too.</div>
+            <div class="testimonials-slider">
+                <div class="testimonials-slider__item slider-item">
+                    <div class="slider-item__testimonial">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minimveniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip. sed
+                        diam nonummy nibh euismod.
+                    </div>
+                    <div class="slider-item__bottom-line">
+                        <img src="img/testimonials-photo-1.png" alt="" class="slider-item__photo">
+                        <div class="slider-item__info">
+                            <div class="slider-item__name">Alena Parker</div>
+                            <div class="slider-item__location"> Sydney, Australia</div>
+                        </div>
+                    </div>
                 </div>
-                <div class="slider-item__bottom-line">
-                    <img src="img/testimonials-photo-1.png" alt="" class="slider-item__photo">
-                    <div class="slider-item__info">
-                        <div class="slider-item__name">Alena Parker</div>
-                        <div class="slider-item__location"> Sydney, Australia</div>
+                <div class="testimonials-slider__item slider-item">
+                    <div class="slider-item__testimonial">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minimveniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip. sed
+                        diam nonummy nibh euismod.
+                    </div>
+                    <div class="slider-item__bottom-line">
+                        <img src="img/testimonials-photo-1.png" alt="" class="slider-item__photo">
+                        <div class="slider-item__info">
+                            <div class="slider-item__name">Alena Parker</div>
+                            <div class="slider-item__location"> Sydney, Australia</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonials-slider__item slider-item">
+                    <div class="slider-item__testimonial">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minimveniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip. sed
+                        diam nonummy nibh euismod.
+                    </div>
+                    <div class="slider-item__bottom-line">
+                        <img src="img/testimonials-photo-1.png" alt="" class="slider-item__photo">
+                        <div class="slider-item__info">
+                            <div class="slider-item__name">Alena Parker</div>
+                            <div class="slider-item__location"> Sydney, Australia</div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="testimonials-slider__item slider-item">
-                <div class="slider-item__testimonial">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minimveniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip. sed
-                    diam nonummy nibh euismod.
-                </div>
-                <div class="slider-item__bottom-line">
-                    <img src="img/testimonials-photo-1.png" alt="" class="slider-item__photo">
-                    <div class="slider-item__info">
-                        <div class="slider-item__name">Alena Parker</div>
-                        <div class="slider-item__location"> Sydney, Australia</div>
-                    </div>
-                </div>
+            <div class="testimonials-slider__dots">
             </div>
-            <div class="testimonials-slider__item slider-item">
-                <div class="slider-item__testimonial">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minimveniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip. sed
-                    diam nonummy nibh euismod.
-                </div>
-                <div class="slider-item__bottom-line">
-                    <img src="img/testimonials-photo-1.png" alt="" class="slider-item__photo">
-                    <div class="slider-item__info">
-                        <div class="slider-item__name">Alena Parker</div>
-                        <div class="slider-item__location"> Sydney, Australia</div>
+        </section>
+        <section class="facts">
+            <h2 class="facts__title title"><span class="left">Supplement</span><span class="right">Facts</span></h2>
+            <div class="facts__subtitle subtitle">We’re brave enough to show what we use.</div>
+            <div class="facts__table ingredients">
+                <div class="ingredients__left-collumn">
+                    <div class="ingredients__header">
+                        <div class="ingredients__header-title">Ingredients</div>
+                        <div class="ingredients__header-block">
+                            <div class="ingredients__header-text-one">Per Serving</div>
+                            <div class="ingredients_header-text-two">(MG)</div>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div class="testimonials-slider__dots">
-        </div>
-    </section>
-    <section class="facts">
-        <h2 class="facts__title title"><span class="left">Supplement</span><span class="right">Facts</span></h2>
-        <div class="facts__subtitle subtitle">We’re brave enough to show what we use.</div>
-        <div class="facts__table ingredients">
-            <div class="ingredients__left-collumn">
-                <div class="ingredients__header">
-                    <div class="ingredients__header-title">Ingredients</div>
-                    <div class="ingredients__header-block">
-                        <div class="ingredients__header-text-one">Per Serving</div>
-                        <div class="ingredients_header-text-two">(MG)</div>
-                    </div>
-                </div>
-                <ul class="ingredients__list">
-                    <li class="ingredients__list-item active__ingridients">
-                        <div class="igridients__name">Citrus Aurantium</div>
-                        <div class="igridients__amount">100</div>
-                        <div class="ingredients__list-item-inner">
+                    <ul class="ingredients__list">
+                        <li class="ingredients__list-item active__ingridients">
                             <div class="igridients__name">Citrus Aurantium</div>
                             <div class="igridients__amount">100</div>
-                        </div>
-                    </li>
-                    <li class="ingredients__list-item">
-                        <div class="igridients__name">Green Coffee Extract</div>
-                        <div class="igridients__amount">72</div>
-                        <div class="ingredients__list-item-inner">
+                            <div class="ingredients__list-item-inner">
+                                <div class="igridients__name">Citrus Aurantium</div>
+                                <div class="igridients__amount">100</div>
+                            </div>
+                        </li>
+                        <li class="ingredients__list-item">
                             <div class="igridients__name">Green Coffee Extract</div>
                             <div class="igridients__amount">72</div>
-                        </div>
-                    </li>
-                    <li class="ingredients__list-item">
-                        <div class="igridients__name">Green Tea Extract</div>
-                        <div class="igridients__amount">88</div>
-                        <div class="ingredients__list-item-inner">
+                            <div class="ingredients__list-item-inner">
+                                <div class="igridients__name">Green Coffee Extract</div>
+                                <div class="igridients__amount">72</div>
+                            </div>
+                        </li>
+                        <li class="ingredients__list-item">
                             <div class="igridients__name">Green Tea Extract</div>
                             <div class="igridients__amount">88</div>
-                        </div>
-                    </li>
-                    <li class="ingredients__list-item">
-                        <div class="igridients__name">Guarana Extract w/ 10% Caffeine</div>
-                        <div class="igridients__amount">4</div>
-                        <div class="ingredients__list-item-inner">
+                            <div class="ingredients__list-item-inner">
+                                <div class="igridients__name">Green Tea Extract</div>
+                                <div class="igridients__amount">88</div>
+                            </div>
+                        </li>
+                        <li class="ingredients__list-item">
                             <div class="igridients__name">Guarana Extract w/ 10% Caffeine</div>
                             <div class="igridients__amount">4</div>
-                        </div>
-                    </li>
-                    <li class="ingredients__list-item">
-                        <div class="igridients__name">L-Phenylalanine</div>
-                        <div class="igridients__amount">67</div>
-                        <div class="ingredients__list-item-inner">
+                            <div class="ingredients__list-item-inner">
+                                <div class="igridients__name">Guarana Extract w/ 10% Caffeine</div>
+                                <div class="igridients__amount">4</div>
+                            </div>
+                        </li>
+                        <li class="ingredients__list-item">
                             <div class="igridients__name">L-Phenylalanine</div>
                             <div class="igridients__amount">67</div>
-                        </div>
-                    </li>
-                    <li class="ingredients__list-item">
-                        <div class="igridients__name">Niacin</div>
-                        <div class="igridients__amount">87</div>
-                        <div class="ingredients__list-item-inner">
+                            <div class="ingredients__list-item-inner">
+                                <div class="igridients__name">L-Phenylalanine</div>
+                                <div class="igridients__amount">67</div>
+                            </div>
+                        </li>
+                        <li class="ingredients__list-item">
                             <div class="igridients__name">Niacin</div>
                             <div class="igridients__amount">87</div>
-                        </div>
-                    </li>
-                    <li class="ingredients__list-item">
-                        <div class="igridients__name">Red Pepper Extract</div>
-                        <div class="igridients__amount">323</div>
-                        <div class="ingredients__list-item-inner">
+                            <div class="ingredients__list-item-inner">
+                                <div class="igridients__name">Niacin</div>
+                                <div class="igridients__amount">87</div>
+                            </div>
+                        </li>
+                        <li class="ingredients__list-item">
                             <div class="igridients__name">Red Pepper Extract</div>
                             <div class="igridients__amount">323</div>
-                        </div>
-                    </li>
-                    <li class="ingredients__list-item">
-                        <div class="igridients__name">Vitamin B6</div>
-                        <div class="igridients__amount">8</div>
-                        <div class="ingredients__list-item-inner">
+                            <div class="ingredients__list-item-inner">
+                                <div class="igridients__name">Red Pepper Extract</div>
+                                <div class="igridients__amount">323</div>
+                            </div>
+                        </li>
+                        <li class="ingredients__list-item">
                             <div class="igridients__name">Vitamin B6</div>
                             <div class="igridients__amount">8</div>
-                        </div>
-                    </li>
-                </ul>
+                            <div class="ingredients__list-item-inner">
+                                <div class="igridients__name">Vitamin B6</div>
+                                <div class="igridients__amount">8</div>
+                            </div>
+                        </li>
+                    </ul>
 
-            </div>
-            <div class="ingredients__right-collumn">
-                <div class="ingredients__desc-list desc-list">
-                    <div class="desc-list__item active">
-                        <img src="img/ingridients-photo-1.png" alt="" class="desc-list__photo">
-                        <div class="desc-list__block">
-                            <div class="desc-list__name">Citrus Aurantium</div>
-                            <div class="desc-list__amount">100 mg</div>
+                </div>
+                <div class="ingredients__right-collumn">
+                    <div class="ingredients__desc-list desc-list">
+                        <div class="desc-list__item active">
+                            <img src="img/ingridients-photo-1.png" alt="" class="desc-list__photo">
+                            <div class="desc-list__block">
+                                <div class="desc-list__name">Citrus Aurantium</div>
+                                <div class="desc-list__amount">100 mg</div>
+                            </div>
+                            <div class="desc-list__text">
+                                Lorem ipsum dolor sit amet, consectetuer adipis cing elit, sed diam nonummy nibh euismod tincidu nt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.
+                            </div>
                         </div>
-                        <div class="desc-list__text">
-                            Lorem ipsum dolor sit amet, consectetuer adipis cing elit, sed diam nonummy nibh euismod tincidu nt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.
+                        <div class="desc-list__item">
+                            <img src="img/ingridients-photo-1.png" alt="" class="desc-list__photo">
+                            <div class="desc-list__block">
+                                <div class="desc-list__name">Green Coffee Extract</div>
+                                <div class="desc-list__amount">72 mg</div>
+                            </div>
+                            <div class="desc-list__text">
+                                Lorem ipsum dolor sit amet, consectetuer adipis cing elit, sed diam nonummy nibh euismod tincidu nt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.
+                            </div>
                         </div>
-                    </div>
-                    <div class="desc-list__item">
-                        <img src="img/ingridients-photo-1.png" alt="" class="desc-list__photo">
-                        <div class="desc-list__block">
-                            <div class="desc-list__name">Green Coffee Extract</div>
-                            <div class="desc-list__amount">72 mg</div>
+                        <div class="desc-list__item">
+                            <img src="img/ingridients-photo-1.png" alt="" class="desc-list__photo">
+                            <div class="desc-list__block">
+                                <div class="desc-list__name">Green Tea Extract</div>
+                                <div class="desc-list__amount">88 mg</div>
+                            </div>
+                            <div class="desc-list__text">
+                                Lorem ipsum dolor sit amet, consectetuer adipis cing elit, sed diam nonummy nibh euismod tincidu nt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.
+                            </div>
                         </div>
-                        <div class="desc-list__text">
-                            Lorem ipsum dolor sit amet, consectetuer adipis cing elit, sed diam nonummy nibh euismod tincidu nt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.
+                        <div class="desc-list__item">
+                            <img src="img/ingridients-photo-1.png" alt="" class="desc-list__photo">
+                            <div class="desc-list__block">
+                                <div class="desc-list__name">Guarana Extract w/ 10% Caffeine</div>
+                                <div class="desc-list__amount">4 mg</div>
+                            </div>
+                            <div class="desc-list__text">
+                                Lorem ipsum dolor sit amet, consectetuer adipis cing elit, sed diam nonummy nibh euismod tincidu nt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.
+                            </div>
                         </div>
-                    </div>
-                    <div class="desc-list__item">
-                        <img src="img/ingridients-photo-1.png" alt="" class="desc-list__photo">
-                        <div class="desc-list__block">
-                            <div class="desc-list__name">Green Tea Extract</div>
-                            <div class="desc-list__amount">88 mg</div>
+                        <div class="desc-list__item">
+                            <img src="img/ingridients-photo-1.png" alt="" class="desc-list__photo">
+                            <div class="desc-list__block">
+                                <div class="desc-list__name">L-Phenylalanine</div>
+                                <div class="desc-list__amount">67 mg</div>
+                            </div>
+                            <div class="desc-list__text">
+                                Lorem ipsum dolor sit amet, consectetuer adipis cing elit, sed diam nonummy nibh euismod tincidu nt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.
+                            </div>
                         </div>
-                        <div class="desc-list__text">
-                            Lorem ipsum dolor sit amet, consectetuer adipis cing elit, sed diam nonummy nibh euismod tincidu nt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.
+                        <div class="desc-list__item">
+                            <img src="img/ingridients-photo-1.png" alt="" class="desc-list__photo">
+                            <div class="desc-list__block">
+                                <div class="desc-list__name">Niacin</div>
+                                <div class="desc-list__amount">87 mg</div>
+                            </div>
+                            <div class="desc-list__text">
+                                Lorem ipsum dolor sit amet, consectetuer adipis cing elit, sed diam nonummy nibh euismod tincidu nt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.
+                            </div>
                         </div>
-                    </div>
-                    <div class="desc-list__item">
-                        <img src="img/ingridients-photo-1.png" alt="" class="desc-list__photo">
-                        <div class="desc-list__block">
-                            <div class="desc-list__name">Guarana Extract w/ 10% Caffeine</div>
-                            <div class="desc-list__amount">4 mg</div>
+                        <div class="desc-list__item">
+                            <img src="img/ingridients-photo-1.png" alt="" class="desc-list__photo">
+                            <div class="desc-list__block">
+                                <div class="desc-list__name">Red Pepper Extract</div>
+                                <div class="desc-list__amount">323 mg</div>
+                            </div>
+                            <div class="desc-list__text">
+                                Lorem ipsum dolor sit amet, consectetuer adipis cing elit, sed diam nonummy nibh euismod tincidu nt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.
+                            </div>
                         </div>
-                        <div class="desc-list__text">
-                            Lorem ipsum dolor sit amet, consectetuer adipis cing elit, sed diam nonummy nibh euismod tincidu nt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.
-                        </div>
-                    </div>
-                    <div class="desc-list__item">
-                        <img src="img/ingridients-photo-1.png" alt="" class="desc-list__photo">
-                        <div class="desc-list__block">
-                            <div class="desc-list__name">L-Phenylalanine</div>
-                            <div class="desc-list__amount">67 mg</div>
-                        </div>
-                        <div class="desc-list__text">
-                            Lorem ipsum dolor sit amet, consectetuer adipis cing elit, sed diam nonummy nibh euismod tincidu nt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.
-                        </div>
-                    </div>
-                    <div class="desc-list__item">
-                        <img src="img/ingridients-photo-1.png" alt="" class="desc-list__photo">
-                        <div class="desc-list__block">
-                            <div class="desc-list__name">Niacin</div>
-                            <div class="desc-list__amount">87 mg</div>
-                        </div>
-                        <div class="desc-list__text">
-                            Lorem ipsum dolor sit amet, consectetuer adipis cing elit, sed diam nonummy nibh euismod tincidu nt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.
-                        </div>
-                    </div>
-                    <div class="desc-list__item">
-                        <img src="img/ingridients-photo-1.png" alt="" class="desc-list__photo">
-                        <div class="desc-list__block">
-                            <div class="desc-list__name">Red Pepper Extract</div>
-                            <div class="desc-list__amount">323 mg</div>
-                        </div>
-                        <div class="desc-list__text">
-                            Lorem ipsum dolor sit amet, consectetuer adipis cing elit, sed diam nonummy nibh euismod tincidu nt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.
-                        </div>
-                    </div>
-                    <div class="desc-list__item">
-                        <img src="img/ingridients-photo-1.png" alt="" class="desc-list__photo">
-                        <div class="desc-list__block">
-                            <div class="desc-list__name">Vitamin B6</div>
-                            <div class="desc-list__amount">8 mg</div>
-                        </div>
-                        <div class="desc-list__text">
-                            Lorem ipsum dolor sit amet, consectetuer adipis cing elit, sed diam nonummy nibh euismod tincidu nt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.
+                        <div class="desc-list__item">
+                            <img src="img/ingridients-photo-1.png" alt="" class="desc-list__photo">
+                            <div class="desc-list__block">
+                                <div class="desc-list__name">Vitamin B6</div>
+                                <div class="desc-list__amount">8 mg</div>
+                            </div>
+                            <div class="desc-list__text">
+                                Lorem ipsum dolor sit amet, consectetuer adipis cing elit, sed diam nonummy nibh euismod tincidu nt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="facts__table-button-wrapper">
-            <a href="#">
-                <div class="facts__table-button"><span class="left"> Download Specs</span> <span class="right">(50kb)</span></div>
-            </a>
-        </div>
-    </section>
-    <section class="sertification">
-        <div class="sertification__title">Certifications</div>
-        <div class="sertification__subtitle">We don’t sell craps, We’re certified.</div>
-        <div class="sertification__logotypes">
-            <div class="sertification__logotypes-item">
-                <img src="img/logotype-1.png" alt="" class="sertification__logotypes-item-icon">
+            <div class="facts__table-button-wrapper">
+                <a href="#">
+                    <div class="facts__table-button"><span class="left"> Download Specs</span> <span class="right">(50kb)</span></div>
+                </a>
             </div>
-            <div class="sertification__logotypes-item">
-                <img src="img/logotype-2.png" alt="" class="sertification__logotypes-item-icon">
+        </section>
+        <section class="sertification">
+            <div class="sertification__title">Certifications</div>
+            <div class="sertification__subtitle">We don’t sell craps, We’re certified.</div>
+            <div class="sertification__logotypes">
+                <div class="sertification__logotypes-item">
+                    <img src="img/logotype-1.png" alt="" class="sertification__logotypes-item-icon">
+                </div>
+                <div class="sertification__logotypes-item">
+                    <img src="img/logotype-2.png" alt="" class="sertification__logotypes-item-icon">
+                </div>
+                <div class="sertification__logotypes-item">
+                    <img src="img/logotype-3.png" alt="" class="sertification__logotypes-item-icon">
+                </div>
+                <div class="sertification__logotypes-item">
+                    <img src="img/logotype-4.png" alt="" class="sertification__logotypes-item-icon">
+                </div>
+                <div class="sertification__logotypes-item">
+                    <img src="img/logotype-5.png" alt="" class="sertification__logotypes-item-icon">
+                </div>
             </div>
-            <div class="sertification__logotypes-item">
-                <img src="img/logotype-3.png" alt="" class="sertification__logotypes-item-icon">
-            </div>
-            <div class="sertification__logotypes-item">
-                <img src="img/logotype-4.png" alt="" class="sertification__logotypes-item-icon">
-            </div>
-            <div class="sertification__logotypes-item">
-                <img src="img/logotype-5.png" alt="" class="sertification__logotypes-item-icon">
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="supplement">
-        <img src="img/supplement-image.png" alt="" class="supplement__image">
-        <div class="supplement__block">
-            <div class="supplement__title">A Supplement</div>
-            <div class="supplement__cost">$29 USD</div>
-            <div class="supplement__text">Lorem ipsum dolor sit amet, consectetuer adipis cing elit, sed diam nonummy nibh euismod tincidu nt ut laoreet.</div>
-            <a href="#">
-                <div class="supplement__button">ORDER NOW</div>
-            </a>
-        </div>
-    </section>
-
-    <section class="subscribe">
-        <div class="subscibe__title title"><span class="left">Subscribe</span><span class="right">for tips & Offers</span></div>
-        <div class="subscribe__subtitle subtitle">We regularly knock our customers with useful tips and offers.</div>
-        <div class="subscribe__input-block">
-            <input type="text" class="subscribe__input">
-            <button class="subscribe__button">Subscribe</button>
-        </div>
-    </section>
-
-    <section class="inquire">
-        <div class="inquire__title title"><span class="left">Inquire</span><span class="right">Your Issue</span></div>
-        <div class="inquire__subtitle subtitle">We’re always happy to reply our customers. </div>
-
-        <form action="" method="get" class="inquire__form">
-            <div class="inquire__form-top-row">
-                <input type="text" class="inquire__form-name" placeholder="Name">
-                <input type="text" class="inquire__form-email" placeholder="Email">
+        <section class="supplement">
+            <img src="img/supplement-image.png" alt="" class="supplement__image">
+            <div class="supplement__block">
+                <div class="supplement__title">A Supplement</div>
+                <div class="supplement__cost">$29 USD</div>
+                <div class="supplement__text">Lorem ipsum dolor sit amet, consectetuer adipis cing elit, sed diam nonummy nibh euismod tincidu nt ut laoreet.</div>
+                <a href="#">
+                    <div class="supplement__button">ORDER NOW</div>
+                </a>
             </div>
-            <div class="inquire__form-middle-row">
+        </section>
 
-                <textarea name="" id="" cols="30" rows="10" class="inquire__form-subject" placeholder="Subject"></textarea>
+        <section class="subscribe">
+            <div class="subscibe__title title"><span class="left">Subscribe</span><span class="right">for tips & Offers</span></div>
+            <div class="subscribe__subtitle subtitle">We regularly knock our customers with useful tips and offers.</div>
+            <div class="subscribe__input-block">
+                <input type="text" class="subscribe__input">
+                <button class="subscribe__button">Subscribe</button>
             </div>
-            <div class="inquire__button">SEND</div>
-        </form>
+        </section>
 
-    </section>
-    <footer class="footer">
-        <div class="footer__left-block">
-            <div class="footer__left-block-top-row">© Amazon LLC. All Rights Reserved</div>
-            <div class="footer__left-block-bottom-row">
-                <a href="#" class="footer__link">About </a>
-                <a href="#" class="footer__link">Terms</a>
-                <a href="#" class="footer__link">Privacy</a>
-                <a href="#" class="footer__link">Contact</a>
+        <section class="inquire">
+            <div class="inquire__title title"><span class="left">Inquire</span><span class="right">Your Issue</span></div>
+            <div class="inquire__subtitle subtitle">We’re always happy to reply our customers. </div>
+
+            <form action="" method="get" class="inquire__form">
+                <div class="inquire__form-top-row">
+                    <input type="text" class="inquire__form-name" placeholder="Name">
+                    <input type="text" class="inquire__form-email" placeholder="Email">
+                </div>
+                <div class="inquire__form-middle-row">
+
+                    <textarea name="" id="" cols="30" rows="10" class="inquire__form-subject" placeholder="Subject"></textarea>
+                </div>
+                <div class="inquire__button">SEND</div>
+            </form>
+
+        </section>
+        <footer class="footer">
+            <div class="footer__left-block">
+                <div class="footer__left-block-top-row">© Amazon LLC. All Rights Reserved</div>
+                <div class="footer__left-block-bottom-row">
+                    <a href="#" class="footer__link">About </a>
+                    <a href="#" class="footer__link">Terms</a>
+                    <a href="#" class="footer__link">Privacy</a>
+                    <a href="#" class="footer__link">Contact</a>
+                </div>
             </div>
-        </div>
-        <div class="footer__right-block">
-            <a href="#"> <img src="img/facebook-icon.png" alt="" class="footer__icon"></a>
-            <a href="#"> <img src="img/twitter-icon.png" alt="" class="footer__icon"></a>
-            <a href="#"> <img src="img/youtube-icon.png" alt="" class="footer__icon"></a>
-            <a href="#"> <img src="img/internet-icon.png" alt="" class="footer__icon"></a>
-        </div>
-    </footer>
+            <div class="footer__right-block">
+                <a href="#"> <img src="img/facebook-icon.png" alt="" class="footer__icon"></a>
+                <a href="#"> <img src="img/twitter-icon.png" alt="" class="footer__icon"></a>
+                <a href="#"> <img src="img/youtube-icon.png" alt="" class="footer__icon"></a>
+                <a href="#"> <img src="img/internet-icon.png" alt="" class="footer__icon"></a>
+            </div>
+        </footer>
+    </div>
     <script src="js/libs/lib.js"></script>
     <script src="js/script.js"></script>
     <script src="js/ingridients.js"></script>
