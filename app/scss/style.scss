@@ -40,7 +40,7 @@
     align-items: center;
     cursor: pointer;
     background-color: #18a3dd;
-    font-size: 20px;
+    font-size: 18px;
     transition: all 0.5s;
     margin-left: 10px;
     &:hover {
@@ -731,7 +731,7 @@
         height: 1px;
         background-color: #ebebeb;
         display: block;
-        z-index: 9999;
+        z-index: 99;
     }
 }
 
