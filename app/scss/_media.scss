@@ -2,6 +2,9 @@
     .header {
         background-position: top 299px right 10px;
     }
+    .header__top {
+        padding: 0 80px 0 80px;
+    }
     .supplement__block {
         right: 84px;
     }
@@ -370,7 +373,7 @@
         min-width: 210px;
     }
     .facts__table {
-        padding: 0 10px 0 5px;
+        padding: 0 10px 0 10px;
     }
     .facts__table-button {
         max-width: 305px;
